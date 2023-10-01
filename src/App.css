@@ -1,0 +1,64 @@
+.enlarge {
+  animation: enlarging 500ms ease-in-out forwards;
+}
+
+@keyframes enlarging {
+  0% {
+    background-color: white;
+  }
+  100% {
+    background-color: #180018;
+  }
+}
+
+.lighten {
+  animation: lightening 500ms ease-in-out forwards;
+}
+
+@keyframes lightening {
+  0% {
+      background-color: #180018;
+    }
+  100% {
+      background-color: white;
+  }
+  
+}
+
+.testEnlarge {
+  animation: testEnlarging 750ms ease-in-out forwards;
+}
+
+@keyframes testEnlarging {
+  0% {
+    background-color: white;
+    scale: 100%;
+  }
+  10% {
+    background-color: #180018;
+  }
+  100% {
+    background-color: #180018;
+    scale: 8000%;
+  }
+
+}
+
+.testLighten {
+  animation: testLightening 750ms ease-in-out forwards;
+}
+
+@keyframes testLightening {
+  0% {
+    background-color: #180018;
+    scale: 100%;
+  }
+  10% {
+    background-color: white;
+  }
+  100% {
+    background-color: white;
+    scale: 8000%;
+  }
+
+}

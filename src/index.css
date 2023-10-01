@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Pixelify Sans', cursive;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  background-color: #522B5B;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.font-young {
+  font-family: 'Young Serif', serif;
+}
+
+.font-dela {
+  font-family: 'Dela Gothic One', cursive;
+}
+
+.skill--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin: auto;
+}
+
+.skill--icon {
+  width: 45px;
+  height: 45px;
+}
+
+.footer--icon {
+  width: 45px;
+  height: 45px;
+}
+
+.footer--icon:hover {
+  color: rgb(168 85 247);
+  scale: 120%;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 150ms;
+}
+
+.skill--container:hover {
+  color: rgb(168 85 247);
+  scale: 120%;
+  transition-property: all;
+  transition-timing-function: ease-in-out;
+  transition-duration: 150ms;
+}
+
+.linkToOther:hover {
+  color: rgb(168 85 247);
+  text-decoration-line: underline;
+  text-underline-offset: 8px;
+}
